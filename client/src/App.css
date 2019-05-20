@@ -1,0 +1,24 @@
+.progress {
+    width: calc(100% - 110px);
+    display: inline-block;
+}
+.image-area {
+    position: relative;
+    display: inline-block;
+}
+.remove-image {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border-radius: 10em;
+    padding: 1px 5px 1px;
+    text-decoration: none;
+    font: 700 19px/20px sans-serif;
+    background: rgba(158,158,158,.9);
+    border: 2px solid #fff;
+    color: #FFF;
+}
+.remove-image:hover {
+    text-decoration: none;
+    color: #FFF;
+}
